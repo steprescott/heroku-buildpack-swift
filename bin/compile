@@ -3,6 +3,7 @@
 
 set -e
 set -o pipefail
+cd /API
 
 BIN_DIR=$(cd $(dirname $0); pwd)
 ROOT_DIR=$(dirname $BIN_DIR)
