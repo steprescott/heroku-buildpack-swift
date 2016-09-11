@@ -32,8 +32,6 @@ source "$BIN_DIR/steps/swift-install"
 # Setup application environment
 mkdir -p $BUILD_DIR/.profile.d
 
-echo $BUILD_DIR
-
 set-env PATH '$HOME/.swift-bin:$PATH'
 set-env LD_LIBRARY_PATH '$HOME/.swift-lib'
 
